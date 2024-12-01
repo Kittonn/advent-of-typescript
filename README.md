@@ -1,1 +1,1 @@
-# Advent of Typescript - 2023
+# Advent of Typescript
