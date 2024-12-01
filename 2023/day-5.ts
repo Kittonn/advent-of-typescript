@@ -1,1 +1,2 @@
-type SantasList<T extends readonly any[], U extends readonly any[]> = [...T, ...U];
+type List = readonly unknown[]
+type SantasList<BadList extends List, GoodList extends List> = [...BadList, ...GoodList];

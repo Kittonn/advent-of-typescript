@@ -1,1 +1,1 @@
-type FilterChildrenBy<T, U> = T extends U ? never : T;
+type FilterChildrenBy<T, F> = Exclude<T, F>;

@@ -1,1 +1,1 @@
-type SantasFavoriteCookies = 'ginger-bread' | 'chocolate-chip';
+type SantasFavoriteCookies = "ginger-bread" | "chocolate-chip";

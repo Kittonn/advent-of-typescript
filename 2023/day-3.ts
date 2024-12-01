@@ -1,5 +1,5 @@
-type GiftWrapper<P, F, T> = {
-  present: P;
-  from: F;
-  to: T;
+type GiftWrapper<Present, From, To> = {
+  present: Present;
+  from: From;
+  to: To;
 };
